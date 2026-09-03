@@ -1,0 +1,36 @@
+{
+  "name": "crud-practice-nestjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "node api.js && tsc",
+    "start": "node api.js && node dist/main.js",
+    "dev": "node api.js && tsc --watch & node --watch dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-mugisha:Mugisha-Elie/CRUD-Practice-Nestjs.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^12.0.1",
+    "@nestjs/core": "^12.0.1",
+    "@nestjs/platform-express": "^12.0.1",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "pg": "^8.23.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.2"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.4.1",
+    "@types/pg": "^8.23.1",
+    "typescript": "^7.0.2"
+  }
+}
